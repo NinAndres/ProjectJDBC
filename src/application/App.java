@@ -48,5 +48,7 @@ public class App {
         int id = sc.nextInt();
         sellerDao.deleteById(id);
         System.out.println("Deletion completed");
+
+        sc.close();
     }
 }
